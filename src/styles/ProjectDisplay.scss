@@ -1,0 +1,101 @@
+@import '../styles/App.scss';
+
+.project {
+  h4 {
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: $grey;
+    margin-bottom: 2.5em;
+    margin-top: 2rem;
+  }
+  h2 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.3em;
+    letter-spacing: 1.5px;
+    mix-blend-mode: difference;
+    margin-bottom: 1em;
+  }
+  p {
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 30px;
+    font-weight: 300;
+    line-height: 2.28rem;
+    padding-bottom: 2rem;
+  }
+  a {
+    text-decoration: underline;
+    color: $black;
+    font-size: 1.4rem;
+    font-weight: 500;
+    &:hover {
+      color: $peach;
+    }
+  }
+  
+  .link {
+    font-size: 1rem;
+    color: $black;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .img-container {
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    .img-frame {
+      overflow: hidden;
+      width: 100%;
+      padding-bottom: 66.5714%;
+    }
+    img {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-small){
+  .project {
+    .hero-content-inner {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .blend {
+      mix-blend-mode: difference;
+      color: $white;
+    }
+    .img-container {
+      position: inherit;
+      right: 0;
+      top: 0%;
+      z-index: -1;
+    }
+    h2 {
+      font-weight: 500;
+      line-height: 1.3em;
+      letter-spacing: 1.5px;
+      color: $black;
+      z-index: 0;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      // font-size: 24px;
+      // line-height: 60px;
+      // letter-spacing: 0px;
+    }
+  }
+  
+  
+}

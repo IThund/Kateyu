@@ -1,0 +1,31 @@
+@import '../styles/App.scss';
+
+.experience {
+    h4 {
+        font-family: $Decofont;
+        letter-spacing: .5px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        color: $grey;
+        
+    }
+    .vertical-timeline-element-content .vertical-timeline-element-date{
+        color: $grey;
+    }
+    .vertical-timeline-element-content {
+        box-shadow: none;
+        background: none;
+    }
+    .vertical-timeline-element-icon {
+        box-shadow: inherit;
+        -webkit-box-shadow: inherit;
+    }
+    .vertical-timeline-element-content-arrow {
+        display: none;
+    }
+    .vertical-timeline::before {
+        border-radius: 25px;
+    }
+}

@@ -1,0 +1,36 @@
+@import '../styles/App.scss';
+
+.Work-list{
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin: 4rem 0;
+}
+.worklist-item {
+    text-align: left;
+    width: 100%;
+    .worklist-title {
+        padding: 10px 0 30px;
+        border-bottom: 1px solid $gray;
+        h4 {
+            font-weight: 400;
+            margin-bottom: .75rem;
+            color: $gray;
+            font-size: 22px;
+            color: #3d3d3d;
+            &:hover{
+                color: $peach;
+                transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+            }
+        }
+        span {
+            letter-spacing: 4px;
+            color: $gray;
+            font-size: 12px;
+            letter-spacing: 4px;
+            color: #616161;
+        }
+    }
+}

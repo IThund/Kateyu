@@ -1,0 +1,115 @@
+@import '../styles/App.scss';
+.footer {
+  position: relative;
+  z-index: 1;
+  background-color: $background;
+
+  .cta {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      
+      span {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          font-weight: 400;
+          margin: 0;
+      }
+      h2 {
+          padding-bottom: 3rem;
+          align-items: flex-start;
+          display: inline-flex;
+          .line {
+            display: block;
+            height: 5rem;
+            overflow: hidden;
+        }
+      }
+  }
+  .line-inner {
+      display: inline-block;
+  }
+  .line:first-child {
+      margin-right: .4rem;
+  }
+  .content a{
+      cursor: pointer;
+      text-decoration: none;
+      transition: .2s ease-out;
+  }
+  .content:hover a{
+      color: $peach;
+      transform: rotate(-25deg);
+      font-size: 22px;
+  }
+  a.button {
+      font-size: 20px;
+      align-items: center;
+      background-color: $peach;
+      border-radius: 10rem;
+      color: $black;
+      display: inline-flex;
+      height: 10rem;
+      width: 10rem;
+      justify-content: center;
+      padding: 1rem;
+      text-align: center;
+      &:hover {
+          background-color: $black;
+          color: $pink;
+      }
+  }
+  .bottom {
+      border-top: 1px solid lightgray;
+      color: #555;
+      font-size: 1.6rem;
+      margin-top: 4rem;
+      width: 100%;
+      p {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 2rem;
+    }
+  }
+}
+
+
+@media (max-width: $layout-breakpoint-xsmall){
+  .footer {
+    .bottom {
+        flex-direction: column;
+    }
+    .cta {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-small){
+  .footer {
+    .bottom {
+        flex-direction: column;
+    }
+    .content a{
+        margin-top: 4rem;
+    }
+    .cta {
+        flex-direction: row;
+        span{
+            font-size: 4.2rem;
+        }
+        h2{
+            flex-direction: column;
+            .line:nth-child(2) {
+                left: 7rem;
+                position: relative;
+                top: -0.5rem;
+                z-index: -1;
+            }
+        }
+    }
+  }
+}
