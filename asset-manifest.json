@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kateyu/static/css/main.4222b5a5.css",
-    "main.js": "/Kateyu/static/js/main.fbc900c2.js",
+    "main.js": "/Kateyu/static/js/main.6a20b8f0.js",
     "static/js/787.b1b963b4.chunk.js": "/Kateyu/static/js/787.b1b963b4.chunk.js",
     "static/media/work3.jpg": "/Kateyu/static/media/work3.a147fedc28ed8392a3ca.jpg",
     "static/media/hero.jpg": "/Kateyu/static/media/hero.d2f24351465e0b2d1abd.jpg",
@@ -15,11 +15,11 @@
     "static/media/proj3.jpg": "/Kateyu/static/media/proj3.963d8090fe58e15e5d59.jpg",
     "index.html": "/Kateyu/index.html",
     "main.4222b5a5.css.map": "/Kateyu/static/css/main.4222b5a5.css.map",
-    "main.fbc900c2.js.map": "/Kateyu/static/js/main.fbc900c2.js.map",
+    "main.6a20b8f0.js.map": "/Kateyu/static/js/main.6a20b8f0.js.map",
     "787.b1b963b4.chunk.js.map": "/Kateyu/static/js/787.b1b963b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4222b5a5.css",
-    "static/js/main.fbc900c2.js"
+    "static/js/main.6a20b8f0.js"
   ]
 }
