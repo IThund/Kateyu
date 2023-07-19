@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Kateyu/static/css/main.3ac80070.css",
-    "main.js": "/Kateyu/static/js/main.44b88654.js",
+    "main.js": "/Kateyu/static/js/main.b83cea49.js",
     "static/js/787.b1b963b4.chunk.js": "/Kateyu/static/js/787.b1b963b4.chunk.js",
     "static/media/hero.jpg": "/Kateyu/static/media/hero.eb17d06d2a4ee83a363a.jpg",
     "static/media/me.jpg": "/Kateyu/static/media/me.f92ecf1c78cf68933f2e.jpg",
-    "static/media/proj4.jpg": "/Kateyu/static/media/proj4.89466b2c71f3de7b2951.jpg",
     "static/media/proj3.jpg": "/Kateyu/static/media/proj3.9b45ca1cf50056c2652c.jpg",
     "static/media/proj1.jpg": "/Kateyu/static/media/proj1.7c1caeb9c88733f4792d.jpg",
     "static/media/proj2.jpg": "/Kateyu/static/media/proj2.2404be9ecf05afff69fc.jpg",
+    "static/media/proj4.jpg": "/Kateyu/static/media/proj4.ca8973828f7ed84599c6.jpg",
     "index.html": "/Kateyu/index.html",
     "main.3ac80070.css.map": "/Kateyu/static/css/main.3ac80070.css.map",
-    "main.44b88654.js.map": "/Kateyu/static/js/main.44b88654.js.map",
+    "main.b83cea49.js.map": "/Kateyu/static/js/main.b83cea49.js.map",
     "787.b1b963b4.chunk.js.map": "/Kateyu/static/js/787.b1b963b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ac80070.css",
-    "static/js/main.44b88654.js"
+    "static/js/main.b83cea49.js"
   ]
 }
