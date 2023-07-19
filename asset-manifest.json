@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kateyu/static/css/main.3ac80070.css",
-    "main.js": "/Kateyu/static/js/main.4f046bc7.js",
+    "main.js": "/Kateyu/static/js/main.8856908e.js",
     "static/js/787.b1b963b4.chunk.js": "/Kateyu/static/js/787.b1b963b4.chunk.js",
     "static/media/me.jpg": "/Kateyu/static/media/me.17c5a5b0a51cca733581.jpg",
     "static/media/hero.jpg": "/Kateyu/static/media/hero.eb17d06d2a4ee83a363a.jpg",
@@ -11,11 +11,11 @@
     "static/media/proj4.jpg": "/Kateyu/static/media/proj4.ca8973828f7ed84599c6.jpg",
     "index.html": "/Kateyu/index.html",
     "main.3ac80070.css.map": "/Kateyu/static/css/main.3ac80070.css.map",
-    "main.4f046bc7.js.map": "/Kateyu/static/js/main.4f046bc7.js.map",
+    "main.8856908e.js.map": "/Kateyu/static/js/main.8856908e.js.map",
     "787.b1b963b4.chunk.js.map": "/Kateyu/static/js/787.b1b963b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ac80070.css",
-    "static/js/main.4f046bc7.js"
+    "static/js/main.8856908e.js"
   ]
 }
